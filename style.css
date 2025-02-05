@@ -115,3 +115,14 @@ position: fixed;
     width: 100%;
     left: 0px;
 }
+/* full css */
+
+margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    margin-left: -50vw;
+    left: 50%;
+    box-sizing: border-box;
+    padding: 0 25px 0;
+    width: 100vw;
+    background: #000;
