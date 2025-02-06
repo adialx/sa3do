@@ -130,9 +130,9 @@ margin: 0 auto;
 } /* down text postos */
 .new-arrival {
   display: inline-block;
-  color: #ffffff;
-  font-weight: bold;
-  font-size: 14px;
+  color: #000;
+  font-weight: 300;
+  font-size: 15px;
 }
 
 /* إخفاء العنصر على الشاشات الأصغر من 1024px (الهاتف والتابلت) */
