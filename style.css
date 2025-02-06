@@ -135,6 +135,7 @@ margin: 0 auto;
   color: #000;
   font-weight: 300;
   font-size: 15px;
+  padding: 0 0 10px;
 }
 .hots-title {
 font-size: 38px;
@@ -146,6 +147,12 @@ font-size: 38px;
       max-width: 100%;
       overflow: hidden;
   }
+.hots-title {
+font-size: 37px;
+    padding: 0 0 30px;
+    font-weight: 700;
+  text-align: center;
+}
   .slider {
       display: flex;
       transition: transform 0.2s ease-out;
