@@ -144,8 +144,15 @@ margin: 0 auto;
         padding: 0 0 30px;
         text-align: center;
         font-weight: 700;
-
 }
+  .item-home .title-homepage .text {
+    font-weight: 700;
+    background: var(--background-body);
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 20px;
+    position: relative;
+    z-index: 2;
   .slider-container {
       position: relative;
       max-width: 100%;
