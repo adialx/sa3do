@@ -137,19 +137,28 @@ margin: 0 auto;
   font-size: 15px;
   padding: 0 0 10px;
 }
+/* تنسيق hots-title على الشاشات الكبيرة (1025px فأكثر) */
 @media (min-width: 1025px) {
-    .item-homes .hots-title {
+    .item-home .hots-title {
         font-size: 37px;
         color: #000000;
         padding: 0 0 30px;
         text-align: center;
         font-weight: 700;
+    }
 }
-  .item-homes {
-position: relative;
-    font-size: 20px;
-    text-transform: none;
-  }
+
+/* تنسيق hots-title على الشاشات الصغيرة (أقل من 1025px) */
+@media (max-width: 1024px) {
+    .item-home .hots-title {
+        font-size: 20px;
+        color: #333333;
+        padding: 20px 0;
+        text-align: left;
+        font-weight: 600;
+    }
+}
+
   .slider-container {
       position: relative;
       max-width: 100%;
