@@ -138,21 +138,17 @@ margin: 0 auto;
   padding: 0 0 10px;
 }
 @media (min-width: 1025px) {
-    .item-home .hots-title {
+    .item-homes .hots-title {
         font-size: 37px;
         color: #000000;
         padding: 0 0 30px;
         text-align: center;
         font-weight: 700;
 }
-  .item-home {
-    font-weight: 700;
-    background: var(--background-body);
-    display: inline-block;
-    vertical-align: top;
-    padding: 0 20px;
-    position: relative;
-    z-index: 2;
+  .item-homes {
+position: relative;
+    font-size: 20px;
+    text-transform: none;
   }
   .slider-container {
       position: relative;
