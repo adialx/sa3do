@@ -145,7 +145,7 @@ margin: 0 auto;
         text-align: center;
         font-weight: 700;
 }
-  .item-home .title-homepage .text {
+  .item-home {
     font-weight: 700;
     background: var(--background-body);
     display: inline-block;
