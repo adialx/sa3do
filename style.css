@@ -151,8 +151,8 @@ margin: 0 auto;
 /* تنسيق hots-title على الشاشات الصغيرة (أقل من 1025px) */
 @media (max-width: 1024px) {
     .item-home .hots-title {
-        font-size: 25px;
-        color: #333333;
+        font-size: 20px;
+        color: #000;
         margin: 0 0 30px;
         text-align: center;
         font-weight: 700;
