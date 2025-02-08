@@ -128,7 +128,59 @@ margin: 0 auto;
     background: #f7f7f7;
       border-bottom: 1px solid #ebebeb;
       border-top: 1px solid #ebebeb;
-  
+}
+.custom-category-list {
+  list-style: none;
+  padding: 0.3em;
+  margin: 1em 0 0;
+  display: flex;
+  overflow-x: auto;
+  background: #f7f7f7;
+  border-radius: 0;
+  max-width: 100%;
+  justify-content: center;
+  display: none;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.custom-category-list::-webkit-scrollbar {
+  display: none;
+}
+
+.category-item {
+  color: #333333;
+  padding: 7px 13px;
+  margin: 5px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 12px;
+  white-space: nowrap;
+  border: 1px solid #dedede;
+  font-weight: 300;
+}
+
+.category-item a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+}
+
+.category-item:hover {
+  background-color: #000;
+}
+
+.category-item:hover a {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .category-item {
+    font-size: 13px;
+    padding: 8px 15px;
+    margin: 0 5px;
+  } 
 } /* down text postos */
 .new-arrival {
   display: inline-block;
