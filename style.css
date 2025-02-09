@@ -209,7 +209,7 @@ margin: 0 auto;
       background: #f7f7f7;
       border-radius: 0;
       max-width: 100%;
-      width: max-content; /* يجعل القائمة تأخذ حجم عناصرها فقط */
+      width: auto; /* يجعل القائمة تأخذ حجم عناصرها فقط */
       justify-content: flex-start;
       display: none; /* إخفاء القائمة افتراضيًا */
       
