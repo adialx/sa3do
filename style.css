@@ -210,7 +210,7 @@ margin: 0 auto;
       border-radius: 0;
       max-width: 100%;
       width: max-content; /* يجعل القائمة تأخذ حجم عناصرها فقط */
-      justify-content: center;
+      justify-content: flex-start;
       display: none; /* إخفاء القائمة افتراضيًا */
       
       /* إخفاء شريط التمرير */
