@@ -202,11 +202,8 @@ margin: 0 auto;
 }
     .custom-category-list {
       list-style: none;
-      padding: 0.3em;
-      margin: 1em 0 0;
       display: flex;
       overflow-x: auto; /* السماح بالتمرير الأفقي */
-      background: #f7f7f7;
       border-radius: 0;
       max-width: 100%;
       width: auto; /* يجعل القائمة تأخذ حجم عناصرها فقط */
@@ -224,14 +221,14 @@ margin: 0 auto;
 
     .category-item {
       color: #333333;
-      padding: 7px 13px;
-      margin: 5px;
+      padding: 10px 15px;
+      margin: 10px 5px 0;
       border-radius: 3px;
       cursor: pointer;
       transition: background-color 0.3s ease;
-      font-size: 12px; /* الحجم الأساسي للخط */
+      font-size: 13px; /* الحجم الأساسي للخط */
       white-space: nowrap; /* منع التفاف النص */
-      border: 1px solid #dedede;
+      background: #F6F6F6;
       font-weight: 300;
     }
 
