@@ -2,8 +2,9 @@
     .rating {
       display: flex;
       align-items: center;
-      font-size: 30px;
+      font-size: 1rem;
       direction: rtl; /* نجوم تظهر من اليمين لليسار */
+      margin-bottom: 25px;
     }
 
     .star {
@@ -13,9 +14,9 @@
     }
 
     .rating p {
-      margin-right: 10px;
-      font-size: 18px;
-      font-weight: bold;
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: 300;
     }
 
     #ratingDisplay {
