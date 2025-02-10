@@ -1,5 +1,26 @@
 /* first stage */
+    .rating {
+      display: flex;
+      align-items: center;
+      font-size: 30px;
+      direction: rtl; /* نجوم تظهر من اليمين لليسار */
+    }
 
+    .star {
+      cursor: pointer;
+      color: #ffd701; /* اللون الافتراضي */
+      margin: 0 3px;
+    }
+
+    .rating p {
+      margin-right: 10px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    #ratingDisplay {
+      color: #000000; /* لتلوين التقييم بلون ذهبي */
+}
 nav > ul {
 position: relative;
     display: flex;
