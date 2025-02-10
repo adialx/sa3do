@@ -122,7 +122,7 @@ position: fixed;
         gap: 20px;
         justify-content: center;
         flex-wrap: wrap;
-    margin: 1.6vw 0 5vw;
+    margin: 0 0 5vw;
     }
     .left-banner {
         width: 50%;
