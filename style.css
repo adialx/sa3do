@@ -1,15 +1,24 @@
 /* first stage */
+
+.custom-head {
+    display: block;
+    margin: 20px 0;
+    padding: 8px;
+    /* background: #f3f3f3; */
+    font-size: 14px;
+    font-weight: 300;
+    border: 1px solid #eaeaea;
+}
     .rating {
       display: flex;
       align-items: center;
       font-size: 1rem;
-      direction: rtl; /* نجوم تظهر من اليمين لليسار */
       margin-bottom: 25px;
     }
 
     .star {
       cursor: pointer;
-      color: #ffd701; /* اللون الافتراضي */
+      color: #000; /* اللون الافتراضي */
       margin: 0 3px;
     }
 
@@ -17,10 +26,11 @@
     margin-right: 10px;
     font-size: 14px;
     font-weight: 300;
+            color: #626262;
     }
 
     #ratingDisplay {
-      color: #000000; /* لتلوين التقييم بلون ذهبي */
+      color: #939393; /* لتلوين التقييم بلون ذهبي */
 }
 nav > ul {
 position: relative;
