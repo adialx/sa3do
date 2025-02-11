@@ -228,7 +228,7 @@ margin: 0 auto;
     box-sizing: border-box;
     padding: 50px 30px 75px;
     width: 100vw;
-    background: #f7f7f7;
+    background: #fcf9f2;
 }
     .custom-category-list {
       list-style: none;
@@ -380,4 +380,3 @@ margin: 0 auto;
         font-size: 3vw; /* تصغير النص قليلاً */
     }
 }
-
