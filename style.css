@@ -370,10 +370,10 @@ margin: 0 auto;
   }
 @media (max-width: 768px) {
     .rating p {
-        font-size: 100%;  /* تقليل حجم النجوم على الهواتف */
+        font-size: 85%;  /* تقليل حجم النجوم على الهواتف */
     }
 @media (max-width: 768px) {
     .rating {
-        font-size: 100%;  /* تقليل حجم النجوم على الهواتف */
+        font-size: 85%;  /* تقليل حجم النجوم على الهواتف */
     }
 
