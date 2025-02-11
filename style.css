@@ -251,14 +251,14 @@ margin: 0 auto;
 
     .category-item {
       color: #333333;
-      padding: 10px 15px;
+      padding: 8px 15px;
       margin: 13px 5px 0;
       border-radius: 3px;
       cursor: pointer;
       transition: background-color 0.3s ease;
-      font-size: 13px; /* الحجم الأساسي للخط */
+      font-size: 90%; /* الحجم الأساسي للخط */
       white-space: nowrap; /* منع التفاف النص */
-      background: #F6F6F6;
+    border: 1px solid var(--border-color);
       font-weight: 300;
     }
 
