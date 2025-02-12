@@ -1,5 +1,35 @@
 /* first stage */
-
+#cookie-popup {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    padding: 15px;
+    z-index: 1000;
+    display: none;
+    font-weight: 200;
+        border-top: 2px solid #000;
+    font-size: 0.9rem;
+  }
+  #cookie-popup a {
+    color: #a3a2a2;
+    text-decoration: underline;
+  }
+  #cookie-popup button {
+    margin-left: 15px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  #cookie-popup button:hover {
+    background-color: #0056b3;
+  }
 .custom-head {
     display: block;
     margin: 20px 0;
