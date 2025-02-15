@@ -10,15 +10,18 @@
 .buyNowButton {
     background: black;
     color: white;
-    display: inline-block;
+    display: inline-flex; /* تغيير هنا */
+    justify-content: center; /* لضبط النص في المنتصف */
+    align-items: center; /* لضبط النص عموديًا في المنتصف */
     height: 45px;
     line-height: 45px;
     text-align: center;
     text-decoration: none;
-    width: auto;
     padding: 0 15px;
-    width: 13rem;
+    width: 23%;
+    white-space: nowrap; /* منع النص من الانكسار */
 }
+
 .custom-head {
     display: block;
     margin: 20px 0;
