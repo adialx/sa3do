@@ -11,13 +11,20 @@
     background: black;
     color: white;
     display: inline-block;
-    height: 40px;
-    line-height: 40px;
+    height: 45px;
+    line-height: 45px;
     text-align: center;
     text-decoration: none;
     width: auto;
     padding: 0 15px;
 }
+@media screen and (max-width: 480px) {
+    .subscribe-text {
+        font-size: 14px;
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+    }
 .custom-head {
     display: block;
     margin: 20px 0;
@@ -383,14 +390,6 @@ margin: 0 auto;
   .new-arrival {
     display: none;
   }
-    /* تصغير النص والزر في الشاشات الصغيرة */
-@media (max-width: 480px) {
-    .subscribe-text {
-        font-size: 14px;
-        display: block;
-        text-align: center;
-        margin-bottom: 10px;
-    }
 @media (max-width: 768px) {
     .rating {
         font-size: 3vw; /* تصغير الخط قليلاً */
