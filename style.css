@@ -7,6 +7,17 @@
     font-weight: 600;
 }
 
+.buyNowButton {
+    background: black;
+    color: white;
+    display: inline-flex; /* تغيير هنا */
+    justify-content: center; /* لضبط النص في المنتصف */
+    align-items: center; /* لضبط النص عموديًا في المنتصف */
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    width: 15rem;
+}
 
 .custom-head {
     display: block;
@@ -395,4 +406,3 @@ margin: 0 auto;
         margin-bottom: 10px;
     }
 }
-
